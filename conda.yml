@@ -1,0 +1,14 @@
+name: mlflops
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ipython
+  - pip
+  - pip:
+    - pytest
+    - pylint
+    - pytest-cov
+    - databricks-cli==0.16.6
+    - dbx==0.4.1
+    - mlflow[extras]
