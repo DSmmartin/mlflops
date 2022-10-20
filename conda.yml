@@ -12,3 +12,4 @@ dependencies:
     - databricks-cli==0.16.6
     - dbx==0.4.1
     - mlflow[extras]
+    - psycopg2-binary
