@@ -30,6 +30,13 @@ Go to http://localhost:5000
 python example.py
 ```
 
+### 5. Launch the train example
+
+
+```bash
+python -m train
+```
+
 # References
 
 [MLflow documentation](https://mlflow.org/docs/latest/index.html)
@@ -43,7 +50,7 @@ python example.py
 
 [MLFLow official examples](https://github.com/mlflow/mlflow/tree/master/examples)
 
-#### MLFlow Model signature
+### MLFlow Model signature
 
 [MLFlow Model signature documentation](https://www.mlflow.org/docs/latest/models.html#model-signature)
 
