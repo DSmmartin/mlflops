@@ -154,3 +154,9 @@ cython_debug/
 
 # Mlflow tracking dir
 mlflowruns/
+
+# Data folder
+data/
+
+# VSCode
+.vscode/
