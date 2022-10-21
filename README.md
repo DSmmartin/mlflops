@@ -1,6 +1,8 @@
 # MLFlops: deep dive into MLOps with MLFlow
 
-## 1. Deploy and setup PostgreSQL database to remote backend
+## Getting Started
+
+### 1. Deploy and setup PostgreSQL database to remote backend
 
 1. Deploy the database
 2. Create a database "mlflops"
@@ -8,27 +10,27 @@
 [Documentation to deploy the database on Azure](https://learn.microsoft.com/en-us/azure/postgresql/single-server/quickstart-create-server-database-portal)
 
 
-## 2. Create mlflops conda environment base on conda.yml
+### 2. Create mlflops conda environment base on conda.yml
 
-## 3. Launch mlflow server
+### 3. Launch mlflow server
 
 ```bash
 mlflow server --backend-store-uri "postgresql://DATABASENAME.postgres.database.azure.com/mlflops?user=USERNAME@DATABASENAME&password=PASSWORD" --host localhost  --default-artifact-root ./mlflowruns --port 5000
 ```
 
-## 4. Open mlflow UI
+### 4. Open mlflow UI
 
 Go to http://localhost:5000
 
 
 
-## 4. Launch the experiment example
+### 4. Launch the experiment example
 
 ```bash
 python example.py
 ```
 
-### References
+# References
 
 [MLflow documentation](https://mlflow.org/docs/latest/index.html)
 
