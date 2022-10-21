@@ -1,4 +1,4 @@
-# MlFlops: deep dive into MLOps with MLOps
+# MLFlops: deep dive into MLOps with MLFlow
 
 ## 1. Deploy and setup PostgreSQL database to remote backend
 
