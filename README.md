@@ -37,7 +37,11 @@ python example.py
 [MLflow on Azure with PostgreSQL](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-mlflow#use-postgresql-as-a-backend-store)
 
 
-## MLFlow References Staging:
+#### MLFlow Model signature
+
+[MLFlow Model signature documentation](https://www.mlflow.org/docs/latest/models.html#model-signature)
+
+### MLFlow References Staging:
 
 [Databricks notebook example](https://docs.databricks.com/_static/notebooks/mlflow/mlflow-model-registry-example.html)
 
